@@ -1,4 +1,13 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "Gamgaroo",
+      "url": "https://pkgs.dev.azure.com/gamgaroo/Packages/_packaging/gamgaroo/npm/registry/",
+      "scopes": [
+        "com.gamgaroo"
+      ]
+    }
+  ],
   "dependencies": {
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
