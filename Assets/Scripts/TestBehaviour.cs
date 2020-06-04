@@ -4,7 +4,7 @@ using Gamgaroo.Reactive.Runtime;
 using Gamgaroo.Reactive.Runtime.Abstractions;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Gamgaroo.Samples
 {
     /// <summary>
     ///     This is a View binding sample. After the View is bound to the Reactive Property,
