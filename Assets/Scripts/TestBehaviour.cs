@@ -1,7 +1,7 @@
 ﻿using Gamgaroo.MVVM.Runtime.Extensions;
-using Gamgaroo.MVVM.Runtime.Views.Primitives;
 using Gamgaroo.Reactive.Runtime;
 using Gamgaroo.Reactive.Runtime.Abstractions;
+using Gamgaroo.View.Runtime.Views.Primitives;
 using UnityEngine;
 
 namespace Gamgaroo.Samples
