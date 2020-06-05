@@ -12,18 +12,18 @@ namespace Gamgaroo.Samples.S01_Basics.Scripts
     /// </summary>
     public sealed class TestBehaviour : MonoBehaviour
     {
-        private readonly IReactiveProperty<float> _input = new ReactiveProperty<float>();
+        private readonly IReactiveProperty<float> _time = new ReactiveProperty<float>();
 
         private void Start()
         {
             // Bind the View to the Property
-            GetComponent<TextView>().Bind(_input);
+            GetComponent<TextView>().Bind(_time);
         }
 
         private void Update()
         {
             // Update the Property value
-            _input.Value += Time.deltaTime;
+            _time.Value += Time.deltaTime;
         }
     }
 }
