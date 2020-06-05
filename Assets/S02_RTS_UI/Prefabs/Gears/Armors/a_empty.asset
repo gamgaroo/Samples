@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3346a123209fdc44f926a63d07b82294, type: 3}
-  m_Name: w_crifle_west
+  m_Script: {fileID: 11500000, guid: eb9e02f3678f4923bb536649caf29a74, type: 3}
+  m_Name: a_empty
   m_EditorClassIdentifier: 
-  _title: M4
-  _icon: {fileID: 21300000, guid: 26feafd9c14f28249851dbcf93de1ea2, type: 3}
+  _icon: {fileID: 21300000, guid: a16b4214be9fa5a48943ff9b0038f658, type: 3}
+  _title: No Armor
+  _description: Without armor, the unit has maximum speed, but takes more damage.

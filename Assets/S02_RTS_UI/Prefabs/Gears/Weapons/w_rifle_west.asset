@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3346a123209fdc44f926a63d07b82294, type: 3}
-  m_Name: w_sniper
+  m_Name: w_rifle_west
   m_EditorClassIdentifier: 
-  _title: AWM
-  _icon: {fileID: 21300000, guid: 8fed487fe4468ad4ea7d80e0a94d120d, type: 3}
+  _icon: {fileID: 21300000, guid: 5684df8762e9cc24ebd54fea69c6e8ba, type: 3}
+  _title: M16
+  _description: Assault rifle. Best suited for medium to long range combat.

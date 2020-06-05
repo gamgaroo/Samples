@@ -15,8 +15,8 @@ namespace Gamgaroo.Samples.S02_RTS_UI.Scripts
         private Unit _unitPrefab;
 
         [SerializeField]
-        private Weapon[] _weapons;
-
+        private int _unitCount;
+        
         public IReadOnlyReactiveProperty<Unit> SelectedUnit => _selectedUnit;
         public IReadOnlyReactiveList<Unit> Units => _units;
 
@@ -27,11 +27,11 @@ namespace Gamgaroo.Samples.S02_RTS_UI.Scripts
 
             var unitsContainer = CreateUnitsContainer();
 
-            for (var i = 0; i < _weapons.Length; i++)
+            for (var i = 0; i < _unitCount; i++)
             {
                 var unit = Instantiate(_unitPrefab, unitsContainer);
 
-                unit.Init(i + 1, _weapons[i]);
+                unit.Init(i + 1);
 
                 _units.Add(unit);
             }
@@ -50,7 +50,7 @@ namespace Gamgaroo.Samples.S02_RTS_UI.Scripts
         private void HandleInput()
         {
             if (int.TryParse(Input.inputString, out var unitId))
-                SelectUnit(unitId);
+                SelectUnit(unitId - 1);
         }
 
         private void SelectUnit(int id)
@@ -60,7 +60,7 @@ namespace Gamgaroo.Samples.S02_RTS_UI.Scripts
 
         private bool HasUnitWithId(int id)
         {
-            return id > 0 && id < _units.Items.Count;
+            return id >= 0 && id < _units.Items.Count;
         }
 
         private Transform CreateUnitsContainer()

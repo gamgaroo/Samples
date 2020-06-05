@@ -10,7 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3346a123209fdc44f926a63d07b82294, type: 3}
-  m_Name: w_rifle_east
+  m_Name: w_sniper
   m_EditorClassIdentifier: 
-  _title: AK47
-  _icon: {fileID: 21300000, guid: 356c720087cbc0b4aa3bff2e4c33f6c7, type: 3}
+  _icon: {fileID: 21300000, guid: 8fed487fe4468ad4ea7d80e0a94d120d, type: 3}
+  _title: AWM
+  _description: Sniper rifle. An ideal weapon for long and ultra-long distances,
+    however, in close combat it is extremely inefficient.

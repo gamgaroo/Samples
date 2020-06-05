@@ -43,4 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f0ce1ebb6928d2469cbdc5b9715612e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _default: {fileID: 11400000, guid: 243755d3b197c8b47b452f60c923bc5c, type: 2}
+  _id: 0
+  _defaultArmor: {fileID: 11400000, guid: b6628e19708a63f4cb598c7bd139b7cd, type: 2}
+  _defaultWeapon: {fileID: 11400000, guid: 030f9baba90720b45a5082b452b8cc94, type: 2}

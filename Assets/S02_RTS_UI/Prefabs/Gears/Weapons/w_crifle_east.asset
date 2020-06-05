@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3346a123209fdc44f926a63d07b82294, type: 3}
   m_Name: w_crifle_east
   m_EditorClassIdentifier: 
-  _title: AK74U
   _icon: {fileID: 21300000, guid: f3a38709e0a87ea4e8a5e148d3df7b22, type: 3}
+  _title: AK74U
+  _description: Compact assault rifle. Best suited for short to medium range combat.
